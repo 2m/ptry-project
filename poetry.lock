@@ -70,8 +70,8 @@ python-versions = "^3.8"
 [package.source]
 type = "git"
 url = "git@github.com:2m/ptry-helper.git"
-reference = "409c3dc"
-resolved_reference = "409c3dc31a0878fe42b0ee3f1c049411aac91d25"
+reference = "1244fa6"
+resolved_reference = "1244fa614e02e73a32a9076b104ac48564ea812d"
 
 [[package]]
 name = "ptry-lib"
@@ -82,13 +82,13 @@ optional = false
 python-versions = "^3.8"
 
 [package.dependencies]
-ptry-helper = "rev 409c3dc"
+ptry-helper = "rev 1244fa6"
 
 [package.source]
 type = "git"
 url = "git@github.com:2m/ptry-lib.git"
-reference = "fb971a2"
-resolved_reference = "fb971a251ee0e78376bb0238eb5dd6f663613b55"
+reference = "91db6f8"
+resolved_reference = "91db6f8508becb177bcff4bd0c1c8cd4a316a52c"
 
 [[package]]
 name = "py"
@@ -147,7 +147,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "a34cbdb6cacaf03485399a839bb8ee0c1517c5c3eae4675a02e872a3a548c947"
+content-hash = "502938b371fbd2aac308e70351ffa6550cd9a410cdcc7ef40069eb51c2a70233"
 
 [metadata.files]
 atomicwrites = [
