@@ -73,6 +73,22 @@ version = "0.1.0"
 reference = "409c3dc31a0878fe42b0ee3f1c049411aac91d25"
 type = "git"
 url = "git@github.com:2m/ptry-helper.git"
+
+[[package]]
+category = "main"
+description = ""
+name = "ptry-lib"
+optional = false
+python-versions = "^3.8"
+version = "0.1.0"
+
+[package.dependencies]
+ptry-helper = "rev 409c3dc"
+
+[package.source]
+reference = "fb971a251ee0e78376bb0238eb5dd6f663613b55"
+type = "git"
+url = "git@github.com:2m/ptry-lib.git"
 [[package]]
 category = "dev"
 description = "library with cross-python path, ini-parsing, io, code, log facilities"
@@ -128,7 +144,7 @@ python-versions = "*"
 version = "0.2.5"
 
 [metadata]
-content-hash = "aa5a7274e1053fe01d74891f1a40a330c24add7ef47e2fb3774083a6419faaf3"
+content-hash = "a34cbdb6cacaf03485399a839bb8ee0c1517c5c3eae4675a02e872a3a548c947"
 lock-version = "1.0"
 python-versions = "^3.8"
 
@@ -158,6 +174,7 @@ pluggy = [
     {file = "pluggy-0.13.1.tar.gz", hash = "sha256:15b2acde666561e1298d71b523007ed7364de07029219b604cf808bfa1c765b0"},
 ]
 ptry-helper = []
+ptry-lib = []
 py = [
     {file = "py-1.9.0-py2.py3-none-any.whl", hash = "sha256:366389d1db726cd2fcfc79732e75410e5fe4d31db13692115529d34069a043c2"},
     {file = "py-1.9.0.tar.gz", hash = "sha256:9ca6883ce56b4e8da7e79ac18787889fa5206c79dcc67fb065376cd2fe03f342"},
